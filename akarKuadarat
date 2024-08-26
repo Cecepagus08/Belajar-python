@@ -1,0 +1,9 @@
+# Minta input dari pengguna
+angka = float(input("Tuliskan Angka: "))
+
+# Hitung akar kuadrat
+akar_kuadrat = round(angka ** 0.5, 3)
+
+# Cetak hasil dengan format sesuai
+print(f"Tuliskan Angka: \033[92m{angka}\033[0m")
+print(f"Akar Kuadrat dari \033[92m{angka:,.3f}\033[0m adalah \033[92m{akar_kuadrat}\033[0m.")
